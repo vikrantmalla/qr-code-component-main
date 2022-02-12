@@ -1,0 +1,12 @@
+   /*Color */
+   
+   $colorWhite: hsl(0, 0%, 100%);
+   $colorLightgray: hsl(212, 45%, 89%);
+   $colorGrayishblue: hsl(220, 15%, 55%);
+   $colorDarkblue: hsl(218, 44%, 22%);
+   @mixin flex($direction, $justify) {
+       display: flex;
+       flex-direction: $direction;
+       justify-content: $justify;
+       align-items: center;
+   }
